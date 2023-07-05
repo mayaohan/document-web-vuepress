@@ -11,7 +11,7 @@ module.exports = {
     host: '127.0.0.1',
     port: 8532,
     base: process.env.NODE_ENV === 'production' ? '/document-web-vuepress/' : '/',
-    title: `GleenLey's Blog`, // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
+    title: `Clare's Blog`, // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
     description: '保持热爱 真理无限 一步一个脚印', // meta 中的描述文字，用于SEO
     // 注入到当前页面的 HTML <head> 中的标签
     head: [
