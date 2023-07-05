@@ -8,8 +8,8 @@ categories:
 tags: 
   - javaScript
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 函数缓存，就是将函数运算过的结果进行缓存

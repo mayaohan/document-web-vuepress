@@ -8,8 +8,8 @@ categories:
 tags: 
   - null
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 ## 浏览器中 Frame 与 Event Loop 的关系是什么
 

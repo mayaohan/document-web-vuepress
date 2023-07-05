@@ -8,8 +8,8 @@ categories:
 tags: 
   - javaScript
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 > 如果要用一句来描述，我们可以说

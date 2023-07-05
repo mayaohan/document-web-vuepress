@@ -8,8 +8,8 @@ categories:
 tags: 
   - axios
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 > 感兴趣的朋友可能已经看过axios的源码 那接下来我们一起看看axios的源码
 <!-- more -->

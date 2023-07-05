@@ -8,8 +8,8 @@ categories:
 tags: 
   - null
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 > HTTP/2是HTTP协议的下一代标准，相比于HTTP/1.1，在以下方面都有了一定的改进：
 

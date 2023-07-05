@@ -8,8 +8,8 @@ categories:
 tags: 
   - null
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 浏览器中的 cookie 主要包括以下几个字段：
 ----

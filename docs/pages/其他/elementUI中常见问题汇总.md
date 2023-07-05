@@ -9,8 +9,8 @@ categories:
 tags:
   - Elemetn UI
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 > 记录日常开发中遇到的若干问题及其解决办法
 

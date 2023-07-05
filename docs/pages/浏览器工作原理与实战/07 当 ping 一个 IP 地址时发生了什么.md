@@ -8,8 +8,8 @@ categories:
 tags: 
   - null
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 当 ping 一个 IP 地址时发生了什么
 ---------------------------

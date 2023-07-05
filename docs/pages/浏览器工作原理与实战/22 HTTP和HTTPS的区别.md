@@ -8,8 +8,8 @@ categories:
 tags:
   - 浏览器工作原理与实战
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 # 什么是HTTP? HTTP 和 HTTPS 的区别?

@@ -8,8 +8,8 @@ categories:
 tags: 
   - javaScript
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 ## 一、操作方法

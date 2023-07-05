@@ -8,8 +8,8 @@ categories:
 tags: 
   - 浏览器工作原理与实战
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 # Chrome架构：仅仅打开了1个页面，为什么有4个进程
 

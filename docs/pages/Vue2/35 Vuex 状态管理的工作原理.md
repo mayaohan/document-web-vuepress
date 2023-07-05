@@ -8,8 +8,8 @@ categories:
 tags: 
   - vue2
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 为什么要使用 Vuex
 ---------------

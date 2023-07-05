@@ -8,8 +8,8 @@ categories:
 tags: 
   - javaScript
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 > JS 中有六种简单数据类型：```undefined、null、boolean、string、number、symbol```，以及引用类型：```object```但是我们在声明的时候只有一种数据类型，只有到运行期间才会确定当前类型

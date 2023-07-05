@@ -8,8 +8,8 @@ categories:
 tags: 
   - null
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 强缓存和协议缓存
 -------------

@@ -1,7 +1,7 @@
 /*
- * @Author: Gleenley<https://gitee.com/Gleenley>
+ * @Author: Clare<https://github.com/mayaohan/document-web-vuepress>
  * @Date: 2023-4-18 15:27:18
- * @LastEditors: Gleenley<https://gitee.com/Gleenley>
+ * @LastEditors: Clare<https://github.com/mayaohan/document-web-vuepress>
  * @LastEditTime: 2023-05-20 11:36:50
  */
 

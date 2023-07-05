@@ -8,8 +8,8 @@ categories:
 tags: 
   - webpack
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 ## 一、loader是什么

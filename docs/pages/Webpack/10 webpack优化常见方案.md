@@ -8,8 +8,8 @@ categories:
 tags: 
   - webpack
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 ## 减少打包体积 代码压缩
 ## uglifyjs-webpack-plugin

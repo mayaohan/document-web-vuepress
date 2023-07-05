@@ -8,8 +8,8 @@ categories:
 tags: 
   - vue2
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 Vue中给对象添加新属性视图为什么不刷新？
 -------------------------------

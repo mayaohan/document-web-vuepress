@@ -8,8 +8,8 @@ categories:
 tags:
   - vue2
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 
@@ -43,7 +43,7 @@ export default {
     },
     data() {
         return {
-            name: 'GleenLey',
+            name: 'Clare',
             age: 12,
             sex: 'male'
         }
@@ -77,8 +77,8 @@ export default {
     mounted() {
       console.log(this.$attrs);
       console.log(this.$attrs.name);
-      // Proxy(Object) {names: 'GleenLey', age: 12, sex: 'male', __vInternal: 1}[[Handler]]: Object[[Target]]: Object[[IsRevoked]]: 
-     //  GleenLey
+      // Proxy(Object) {names: 'Clare', age: 12, sex: 'male', __vInternal: 1}[[Handler]]: Object[[Target]]: Object[[IsRevoked]]: 
+     //  Clare
     }
 }
 </script>

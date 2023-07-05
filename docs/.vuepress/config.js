@@ -1,7 +1,7 @@
 /*
- * @Author: Gleenley<https://gitee.com/Gleenley>
+ * @Author: Clare<https://github.com/mayaohan/document-web-vuepress>
  * @Date: 2023-4-18 15:27:18
- * @LastEditors: Gleenley<https://gitee.com/Gleenley>
+ * @LastEditors: Clare<https://github.com/mayaohan/document-web-vuepress>
  * @LastEditTime: 2023-05-20 11:36:50
  */
 
@@ -70,7 +70,7 @@ module.exports = {
         blogger: {
             // avatar: '/document-web-vuepress/images/035.jpg',
             avatar: process.env.NODE_ENV === 'production' ? '/document-web-vuepress/images/035.jpg' : '/images/035.jpg',
-            // name: `GleenLey's Blog`,
+            // name: `Clare's Blog`,
             // slogan: '保持热爱 真理无限 一步一个脚印',
         },
         editLinks: true, // 启用编辑
@@ -113,12 +113,12 @@ module.exports = {
         // 页脚信息
         footer: {
             // createYear: 2023, // 博客创建年份
-            copyrightInfo: 'present GleenLey', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+            copyrightInfo: 'present Clare', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
         extendFrontmatter: {
             author: {
-                name: 'GleenLey',
-                link: 'https://gitee.com/Gleenley'
+                name: 'Clare',
+                link: 'https://github.com/mayaohan/document-web-vuepress'
             }
         },
 
@@ -126,8 +126,8 @@ module.exports = {
     },
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     author: {
-        name: `GleenLey's Blog`,
-        link: 'https://gitee.com/Gleenley'
+        name: `Clare's Blog`,
+        link: 'https://github.com/mayaohan/document-web-vuepress'
     },
     plugins: [
         [

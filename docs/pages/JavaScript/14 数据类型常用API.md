@@ -8,8 +8,8 @@ categories:
 tags: 
   - javaScript
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 列举 Number、String、Array、Object、Promise 有哪些 API
 --------------------------------------------------

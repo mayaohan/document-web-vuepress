@@ -8,8 +8,8 @@ categories:
 tags: 
   - javaScript
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 
@@ -35,14 +35,14 @@ author:
 
 
 ```js
-var name = 'gleenley';
+var name = 'Clare';
 function lookName(){
   alert(this.name);
 }
 
-console.log(window.name);  //gleenley
-lookName();                //gleenley
-window.lookName();         //gleenley
+console.log(window.name);  //Clare
+lookName();                //Clare
+window.lookName();         //Clare
 ```
 
 关于窗口控制方法如下：
@@ -110,16 +110,16 @@ window.location.href的赋值，并不会中断Javascript的执行立即进行�
 异步执行的好处是为了防止代码调用过深，导致栈溢出，另外也是为了防止递归进入加载逻辑，导致状态紊乱，保证导航请求是顺序执行的。
 ```js
 (function(){
-    window.location.href= 'https://gleenley.gitee.io/learing_record';
+    window.location.href= 'https://Clare.gitee.io/learing_record';
     console.log(123);
 }())
 ```
-上述代码不会立即执行页面跳转，而是会先输出123，然后才会跳转到Gleenley页面
+上述代码不会立即执行页面跳转，而是会先输出123，然后才会跳转到Clare页面
 
 解决方法
 ```js
 (function(){
-    window.location.href= 'https://gleenley.gitee.io/learing_record';
+    window.location.href= 'https://Clare.gitee.io/learing_record';
     return 
     console.log(123);
 }())

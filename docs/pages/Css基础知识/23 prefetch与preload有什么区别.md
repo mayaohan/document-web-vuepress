@@ -8,8 +8,8 @@ categories:
 tags:
   - css
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 > prefetch 和 preload 都用于在浏览器空闲时提前加载资源，以提高性能和用户体验。然而，它们的具体功能略有不同
 

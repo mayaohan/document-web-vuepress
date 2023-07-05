@@ -9,8 +9,8 @@ categories:
 tags:
   - 其他
 author: 
-  name: GleenLey
-  link: https://gitee.com/Gleenley
+  name: Clare
+  link: https://github.com/mayaohan/document-web-vuepress
 ---
 
 # Markdown使用教程
@@ -55,9 +55,9 @@ author:
 [![图片文字说明](图片源地址)](超链接地址)  # 即超链接内部嵌套图片
 
 语法：
-[![github](https://img.shields.io/badge/Gleen-Ley-brightgreen)](https://github.com/gleenley)
+[![github](https://img.shields.io/badge/Gleen-Ley-brightgreen)](https://github.com/Clare)
 ```
-[![github](https://img.shields.io/badge/Gleen-Ley-brightgreen)](https://github.com/gleenley)
+[![github](https://img.shields.io/badge/Gleen-Ley-brightgreen)](https://github.com/Clare)
 
 
 
