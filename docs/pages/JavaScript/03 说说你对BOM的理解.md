@@ -22,7 +22,7 @@ author:
 
 **区别如下：**
 
-![lerna](/learing_record/images/bom01.avif)
+![lerna](/document-web-vuepress/images/bom01.avif)
 
 
 ## 二、window
@@ -110,7 +110,7 @@ window.location.href的赋值，并不会中断Javascript的执行立即进行�
 异步执行的好处是为了防止代码调用过深，导致栈溢出，另外也是为了防止递归进入加载逻辑，导致状态紊乱，保证导航请求是顺序执行的。
 ```js
 (function(){
-    window.location.href= 'https://Clare.gitee.io/learing_record';
+    window.location.href= 'https://Clare.gitee.io/document-web-vuepress';
     console.log(123);
 }())
 ```
@@ -119,7 +119,7 @@ window.location.href的赋值，并不会中断Javascript的执行立即进行�
 解决方法
 ```js
 (function(){
-    window.location.href= 'https://Clare.gitee.io/learing_record';
+    window.location.href= 'https://Clare.gitee.io/document-web-vuepress';
     return 
     console.log(123);
 }())
@@ -143,7 +143,7 @@ window.location.href的赋值，并不会中断Javascript的执行立即进行�
 |javaEnabled() |指定是否在浏览器中启用Java|
 |taintEnabled() |规定浏览器是否启用数据污点(data tainting)|
 
-![lerna](/learing_record/images/bom03.avif)
+![lerna](/document-web-vuepress/images/bom03.avif)
 
 
 ## 五、screen
@@ -158,7 +158,7 @@ window.location.href的赋值，并不会中断Javascript的执行立即进行�
 |availWidth|	返回屏幕的宽度(不包括任务栏)|
 |pixelDepth|	返回屏幕的颜色分辨率(每像素的位数)|
 
-![lerna](/learing_record/images/bom02.avif)
+![lerna](/document-web-vuepress/images/bom02.avif)
 
 ## 六、history
 

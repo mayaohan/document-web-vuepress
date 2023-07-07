@@ -24,7 +24,7 @@ author:
 ### 关于计算首屏时间
 利用`performance.timing`提供的数据：
 
-![lerna](/learing_record/images/vueperformance01.avif)
+![lerna](/document-web-vuepress/images/vueperformance01.avif)
 
 通过`DOMContentLoad`或者`performance`来计算出首屏时间
 
@@ -197,7 +197,7 @@ SSR（Server side ），也就是服务端渲染，组件或页面通过服务�
 
 下图是更为全面的首屏优化的方案
 
-![lerna](/learing_record/images/vueperformance02.avif)
+![lerna](/document-web-vuepress/images/vueperformance02.avif)
 
 大家可以根据自己项目的情况选择各种方式进行首屏渲染的优化
 

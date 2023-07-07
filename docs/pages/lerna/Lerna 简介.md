@@ -50,7 +50,7 @@ create-react-app: https://github.com/facebook/create-react-app
 
 **lerna 开发脚手架流程（划重点）**
 
-![lerna](/learing_record/images/lerna.webp)
+![lerna](/document-web-vuepress/images/lerna.webp)
 <!-- <img src="/vuepressClare/docs/.vuepress/public/images/lerna.jpg"> -->
 
 **基于 Lerna 创建项目**

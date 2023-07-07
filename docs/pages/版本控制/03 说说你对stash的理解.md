@@ -88,7 +88,7 @@ stash，译为存放，在 git 中，可以理解为保存当前工作进度，�
 
 显示保存进度的列表。也就意味着，`git stash`命令可以多次执行，当多次使用`git stash`命令后，栈里会充满未提交的代码，如下：
 
- ![](/learing_record/images/gitstash01.webp)
+ ![](/document-web-vuepress/images/gitstash01.webp)
 
 其中，`stash@{0}`、`stash@{1}`就是当前`stash`的名称
 
@@ -128,7 +128,7 @@ stash，译为存放，在 git 中，可以理解为保存当前工作进度，�
 
 通过使用`git stash show stash@{1}`查看指定的`stash`和当前目录差异
 
- ![](/learing_record/images/gitstash.webp)
+ ![](/document-web-vuepress/images/gitstash.webp)
 
 
 

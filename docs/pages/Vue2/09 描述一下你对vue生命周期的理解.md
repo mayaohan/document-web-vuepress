@@ -45,7 +45,7 @@ Vue生命周期总共可以分为8个阶段：创建前后, 载入前后,更新�
 
 `Vue`生命周期流程图
 
- ![lerna](/learing_record/images/vuelife01.avif)
+ ![lerna](/document-web-vuepress/images/vuelife01.avif)
 
 #### 具体分析
 

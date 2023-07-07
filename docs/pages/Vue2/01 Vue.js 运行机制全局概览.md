@@ -21,13 +21,13 @@ author:
 <!-- more -->
 
 内部流程图:
-![lerna](/learing_record/images/vue2.01.webp)
+![lerna](/document-web-vuepress/images/vue2.01.webp)
 
 
 初始化及挂载
 ----------
 
-![lerna](/learing_record/images/vue2.02.webp)
+![lerna](/document-web-vuepress/images/vue2.02.webp)
 
 在 **new Vue()** 之后。 Vue 会调用 **_init** 函数进行初始化，也就是这里的 **init** 过程，它会**初始化生命周期**、**事件**、 **props**、 **method**s、 **data**、 **computed** 与 **watch** 等。其中最重要的是通过 **Object.defineProperty** 设置 **setter** 与 **getter** 函数，用来实现 **「响应式」** 以及 **「依赖收集」**，后面会详细讲到，这里只要有一个印象即可。
 
@@ -36,7 +36,7 @@ author:
 编译
 ---
 **compile**编译可以分成 **parse**、**optimize** 与 **generate** 三个阶段，最终需要得到 **render function**。
-![lerna](/learing_record/images/vue2.03.webp)
+![lerna](/document-web-vuepress/images/vue2.03.webp)
 
 
 **parse**
@@ -53,13 +53,13 @@ generate 是将 AST 转化成 render function 字符串的过程，得到结果�
 响应式
 ----
 接下来也就是 Vue.js 响应式核心部分。
-![lerna](/learing_record/images/vue2.04.webp)
+![lerna](/document-web-vuepress/images/vue2.04.webp)
 
 这里的 getter 跟 setter 已经在之前介绍过了，在 init 的时候通过 Object.defineProperty 进行了绑定，它使得当被设置的对象被读取的时候会执行 getter 函数，而在当被赋值的时候会执行 setter 函数。
 
 当 render function 被渲染的时候，因为会读取所需对象的值，所以会触发 getter 函数进行「依赖收集」，「依赖收集」的目的是将观察者 Watcher 对象存放到当前闭包中的订阅者 Dep 的 subs 中。形成如下所示的这样一个关系。
 
-![lerna](/learing_record/images/vue2.05.webp)
+![lerna](/document-web-vuepress/images/vue2.05.webp)
 
 
 在修改对象的值的时候，会触发对应的 setter， setter 通知之前「依赖收集」得到的 Dep 中的每一个 Watcher，告诉它们自己的值改变了，需要重新渲染视图。这时候这些 Watcher 就会开始调用 update 来更新视图，当然这中间还有一个 patch 的过程以及使用队列来异步更新的策略。
@@ -90,7 +90,7 @@ Virtual DOM
 
 更新视图
 ------
-![lerna](/learing_record/images/vue2.06.webp)
+![lerna](/document-web-vuepress/images/vue2.06.webp)
 
 前面我们说到，在修改一个对象值的时候，会通过 setter -> Watcher -> update 的流程来修改对应的视图，那么最终是如何更新视图的呢？
 
@@ -100,6 +100,6 @@ Virtual DOM
 
 再看全局
 ------
-![lerna](/learing_record/images/vue2.07.webp)
+![lerna](/document-web-vuepress/images/vue2.07.webp)
 
 回过头再来看看这张图，是不是大脑中已经有一个大概的脉络了呢？

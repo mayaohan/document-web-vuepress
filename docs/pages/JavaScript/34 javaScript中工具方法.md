@@ -16,7 +16,7 @@ author:
 
 ##### 树形结构
 
- ![lerna](/learing_record/images/dataType.avif)
+ ![lerna](/document-web-vuepress/images/dataType.avif)
 
 
 ```js
